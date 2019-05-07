@@ -1,4 +1,5 @@
 package sjms.demo4;
 
-public class Packing {
+public interface Packing {
+    public String pack();
 }

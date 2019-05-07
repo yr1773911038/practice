@@ -1,4 +1,7 @@
 package sjms.demo4;
 
-public class Item {
+public interface Item {
+    public String name();
+    public Packing packing();
+    public float price();
 }

@@ -1,4 +1,9 @@
 package sjms.demo4;
 
-public class Burger {
+public abstract class Burger implements Item {
+
+    @Override
+    public Packing packing() {
+        return new Wrapper();
+    }
 }
